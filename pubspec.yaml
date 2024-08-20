@@ -38,4 +38,8 @@ flutter:
     - path: assets/svg.svg
       transformers:
         - package: vector_graphics_compiler
+
+    - path: assets/jungle/
+      transformers:
+        - package: vector_graphics_compiler
     # Run the application using `flutter run` to see how these assets get rendered.
